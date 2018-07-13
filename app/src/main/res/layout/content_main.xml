@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/appbar_main"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/sdcard"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="70dp"/>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/directory"
+        android:textSize="18sp" />
+
+
+      <LinearLayout
+          android:id="@+id/linear"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="75dp">
+
+          <ListView
+              android:id="@+id/list_item"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+          </ListView>
+      </LinearLayout>
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        fab:menu_colorNormal="@color/accent_pink"
+        fab:menu_colorPressed="#db7b3b"
+        fab:menu_colorRipple="#deaa1b"
+        app:layout_anchor="@id/list_item"
+        app:layout_anchorGravity="bottom|right|end"
+        app:srcCompat="@drawable/ic_add_white_24dp" >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/new_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/folder_fab"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@android:color/holo_blue_bright"
+            fab:fab_colorPressed="#2272CD"
+            fab:menu_colorRipple="#62B2FF"
+            fab:fab_label="New Folder" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/new_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_insert_drive_file_white_24dp"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@android:color/holo_blue_bright"
+            fab:fab_colorPressed="#2272CD"
+            fab:menu_colorRipple="#62B2FF"
+            fab:fab_label="New File" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cloud_white_24dp"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@android:color/holo_blue_bright"
+            fab:fab_colorPressed="#2272CD"
+            fab:menu_colorRipple="#62B2FF"
+            fab:fab_label="SMB Connection" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

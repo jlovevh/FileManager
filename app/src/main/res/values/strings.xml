@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">File Manager</string>
+    <string name="select_intent">Select Intent</string>
+    <string name="openwith">Open with</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="rename">Rename</string>
+    <string name="crypt_encrypt">Encrypt</string>
+    <string name="properties">Properties</string>
+    <string name="share">Share</string>
+    <string name="extract">Extract</string>
+    <string name="addtobook">Add to Bookmark</string>
+    <string name="crypt_decrypt">Decrypt</string>
+    <string name="paste">Paste</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="sort">Sort</string>
+    <string name="sortby">Sort By</string>
+    <string name="directorysort">Directory Sort Mode</string>
+    <string name="history">History</string>
+    <string name="hiddenfiles">Hidden Files</string>
+    <string name="setashome">Set As Home</string>
+    <string name="exit">Exit</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="directory">Directories</string>
+    <string name="content">Image</string>
+    <string name="sdcard">sdcard</string>
+    <string name="dcim">DCIM</string>
+    <string name="download">Download</string>
+    <string name="movie">Movies</string>
+    <string name="music">Music</string>
+    <string name="picture">Picture</string>
+    <string name="image">Images</string>
+    <string name="video">Videos</string>
+    <string name="audio">Audio</string>
+    <string name="document">Documents</string>
+    <string name="apk">Apks</string>
+    <string name="appmanager">App Manager</string>
+    <string name="setting">Settings</string>
+    <string name="lastModifier">May 12,2018</string>
+    <string name="folder">New folder</string>
+    <string name="newFile">New File</string>
+    <string name="rename1">ReName</string>
+    <string name="CutToMove">CutToMove</string>
+    <string name="nofile">No File</string>
+
+
+</resources>

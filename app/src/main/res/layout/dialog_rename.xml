@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inputType="text"
+    android:id="@+id/renameFile"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:layout_marginTop="10dp"
+    android:padding="15dp">
+
+
+
+
+
+
+
+</EditText>

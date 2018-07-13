@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_folder"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+
+        android:src="@drawable/folder" />
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/folder"
+            android:textColor="@color/accent_black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_modifier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/lastModifier"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
